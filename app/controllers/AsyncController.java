@@ -32,7 +32,7 @@ public class AsyncController extends Controller {
      * @param exec We need a Java {@link Executor} to apply the result
      * of the {@link CompletableFuture} and a Scala
      * {@link ExecutionContext} so we can use the Akka {@link Scheduler}.
-     * An {@link ExecutionContextExecutor} implements both interfaces.
+     * An {@link ExecutionContextExecutor} implements both interfaces .
      */
     @Inject
     public AsyncController(ActorSystem actorSystem, ExecutionContextExecutor exec) {
